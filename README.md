@@ -13,7 +13,7 @@ This Jupyter Notebook analyzes bar and coffee house visit patterns and behaviors
 8. [Usage](#usage)
 
 ## Introduction
-This notebook explores customer behavior and visit patterns to coffee houses, with a focus on companion types (alone, friends, partner, kids) and factors like time of day, weather conditions, occupation and age group. The goal is to derive insights into when and with whom people visit bars, coffee houses the most, in order to enhance customer targeting and promotional strategies.
+This notebook explores customer behavior and visit patterns to bars and coffee houses, with a focus on companion types (alone, friends, partner, kids) and factors like time of day, weather conditions, occupation and age group. The goal is to derive insights into when and with whom people visit bars, coffee houses the most, in order to enhance customer targeting and promotional strategies.
 
 Additionally, we will compare the behaviors of customers who accepted coupons versus those who did not, in order to understand key trends that can help improve coupon marketing strategies.
 
@@ -27,7 +27,14 @@ Additionally, we will compare the behaviors of customers who accepted coupons ve
 - **Bar Plots**: Displayed counts of male and female visitors who accepted coupons, segmented by companion type and visit time.
 - **Pivot Tables**: Used for segmenting the data based on multiple categorical variables.
 
-## Key Observations w.r.t Accepting Coupons
+## Key Observations for Bar w.r.t Accepting Coupon# My observations and hypotheses:
+- **Frequent Bar Visits**: Drivers visiting bars more than once a month are likelier to accept coupons.
+- **Age Factor**: Drivers over 25 years old accept bar coupons at higher rates.
+- **Passenger Demographics**: Non-kid passengers and occupations outside farming, fishing, or forestry correlate with higher acceptance.
+- **Lifestyle Choices**: Frequent visits to cheap restaurants and income under $50K also influence acceptance rates.
+- **Social/Active Profiles**: Socially active and younger drivers tend to accept bar coupons more.
+
+## Key Observations for Coffee House w.r.t Accepting Coupons
 - **Peak times**: The most active visits occur at the Coffee House is at **10 AM Sunny**, with **friends** being the largest group.
 - **Weather impact**: Visits are significantly reduced on rainy or snowy days.
 - **Companion Type**: **Friends** are the most likely to visit, while visits from **kids** are the least frequent.
@@ -58,11 +65,9 @@ Additionally, we will compare the behaviors of customers who accepted coupons ve
 1. Clone this repository:  
    ```bash
    git clone https://github.com/nabiharaza/amazon-mechanical-turk.git
-   ```bash
-   git clone https://github.com/nabiharaza/.git
 2. Install the necessary dependencies:
    ```bash
     pip install -r requirements.txt
 3. Run the notebook:
-Open the coffee_house_analysis.ipynb file in Jupyter or any compatible environment.
+Open the `prompt.ipynb` file in Jupyter or any compatible environment.
 
