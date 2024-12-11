@@ -59,7 +59,7 @@ Additionally, we will compare the behaviors of customers who accepted coupons ve
    ```bash
    git clone https://github.com/nabiharaza/amazon-mechanical-turk.git
    ```bash
-   git clone https://github.com/nabiharaza/amazon-mechanical-turk.git
+   git clone https://github.com/nabiharaza/.git
 2. Install the necessary dependencies:
    ```bash
     pip install -r requirements.txt
